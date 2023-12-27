@@ -1,0 +1,7 @@
+<%= render "import" %>
+<% @users.each do |user| %>
+  <li>
+    <%= user.name %>
+    <%= user.gender %>
+  </li>
+<% end %>
